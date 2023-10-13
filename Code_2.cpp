@@ -1,5 +1,5 @@
 // count the no of digit after the (.) ..
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 int main(){
     float trueVal;
