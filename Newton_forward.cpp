@@ -11,11 +11,10 @@ int main(){
             cin>>arr[i][1];
     }
     for(int i=2;i<=n;i++){
-        for(int j=0;j<n-i+1;j++){
+        for(int j=0;j<n-i+1;j++){ 
             arr[j][i] = arr[j+1][i-1]-arr[j][i-1];
         }
     }
-    // cout<<"\n\nyear\tpopulation\ty1\ty2\ty3\ty4\n\n";
     cout<<endl;
     for(int i=0;i<n;i++){
         for(int j=0;j<n-i+1;j++){
